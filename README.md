@@ -22,6 +22,17 @@ yarn start
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
+Install Dependencies using
+
+```bash
+# using npm
+npm install
+
+# OR using Yarn
+yarn
+```
+
+
 ### For Android
 
 ```bash
@@ -40,6 +51,16 @@ npm run ios
 
 # OR using Yarn
 yarn ios
+```
+
+### For WEB
+
+```bash
+# using npm
+npm run web
+
+# OR using Yarn
+yarn web
 ```
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
